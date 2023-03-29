@@ -6,5 +6,5 @@ compile_pdf_state="{\"errors\":[],\"output\":\"\",\"running\":false,\"tab_visibl
 files.monitored-path=""
 find-in-files-state="{\"handle\":\"\",\"input\":\"\",\"path\":\"\",\"regex\":true,\"results\":{\"file\":[],\"line\":[],\"lineValue\":[],\"matchOff\":[],\"matchOn\":[]},\"running\":false}"
 imageDirtyState="1"
-portToken="3351af881ef9"
+portToken="16f7f46c2a9b"
 saveActionState="0"

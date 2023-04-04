@@ -3,3 +3,4 @@
 export(pyrdjhReadData)
 export(pyrdjhUpdateDraftGrad)
 export(pyrdjhmain)
+export(pyrdjhres)

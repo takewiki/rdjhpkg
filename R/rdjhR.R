@@ -59,3 +59,22 @@ pyrdjhUpdateDraftGrad <- function(token, df) {
 }
 
 
+#' Title 查阅更新结果
+#'
+#' @param token 口令
+#'
+#' @return 返回更新结果
+#' @export
+#'
+#' @examples pyrdjhres()
+#' 
+pyrdjhres <- function(token='F91CF3E3-8962-47F2-823F-C5CCAAFC66CA') {
+  #注册python模板
+  mdl <- tsda::import('pyrdjh.rdjhMain')
+  #调用python函数，将.替代为$
+  res <- mdl$readres(token=token)
+  #返回结果
+  return(res)
+}
+
+
